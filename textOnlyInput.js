@@ -7,7 +7,7 @@ const genAI = new GoogleGenerativeAI(KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 
 async function run() {
-  const prompt = "Once upon a time";
+  const prompt = "What is 2 + 2?";
   
   // get complete response
   // const result = await model.generateContent(prompt);
